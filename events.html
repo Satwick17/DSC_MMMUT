@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day Scholrs' Club</title>
+    <link rel="stylesheet" href="styler.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!-- ---home section--- -->
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="dsc_img/DSClogo.png" alt="" /></a>
+        <div class="nav_bar" id="navbar">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about us.html">ABOUT US</a></li>
+              <li><a href="blogs.html">BLOG</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="Contact Us.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Events</h1>
+    </section>
+
+<!-- ---Events --- -->
+
+<section class="course">
+    <h1>Club's Perks</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, aliquid!</p>
+    <div class="row">
+      <div class="col-sec1">
+        <h3>Interaction</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam quibusdam, qui earum nisi temporibus est? Esse quas et fugiat explicabo aliquid cumque facere praesentium itaque qui impedit? Voluptatem, illo.</p>
+      </div>
+      <div class="col-sec1">
+        <h3>Bonding</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam quibusdam, qui earum nisi temporibus est? Esse quas et fugiat explicabo aliquid cumque facere praesentium itaque qui impedit? Voluptatem, illo.</p>
+      </div>
+      <div class="col-sec1">
+        <h3>Events</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam quibusdam, qui earum nisi temporibus est? Esse quas et fugiat explicabo aliquid cumque facere praesentium itaque qui impedit? Voluptatem, illo.</p>
+      </div>
+    </div>
+  </section>
+    
+ <!-- ---Facility--- -->
+<section class="facility">
+    <h1>Our Facility</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, in.</p>
+  
+    <div class="row">
+      <div class="f-col">
+        <img src="eduford_img/library.png" alt="">
+        <h3>Books From Seniors</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, architecto.</p>
+      </div>
+      <div class="f-col">
+        <img src="eduford_img/basketball.png" alt="">
+        <h3>Varios Sports</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, architecto.</p>
+      </div>
+      <div class="f-col">
+        <img src="eduford_img/cafeteria.png" alt="">
+        <h3>Parties and Interaction</h3>
+        
+      </div>
+    </div>
+  </section>   
+
+ 
+
+<!-- ---Footer--- -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolor sed at quos doloremque iure cum tenetur delectus non? Inventore,<br> sunt vel. Dolores debitis reprehenderit, quasi repellat iusto facilis itaque.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by Satwick(Pushparaj)</p>
+  
+</section>
+
+
+    <script>
+      var navBar = document.getElementById("navbar");
+
+      function showmenu(){
+        navBar.style.right = "0";
+      }
+      function hidemenu(){
+        navBar.style.right = "-170px";
+      }
+    </script>
+  </body>
+</html>

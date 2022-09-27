@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day Scholrs' Club</title>
+    <link rel="stylesheet" href="styler.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!-- ---home section--- -->
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="dsc_img/DSClogo.png" alt="" /></a>
+        <div class="nav_bar" id="navbar">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about us.html">ABOUT US</a></li>
+              <li><a href="blogs.html">BLOG</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="Contact Us.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>What Our Members Says</h1>
+    </section> 
+
+  <!-- ---blog page--- -->
+
+<section class="blog-con">
+    <div class="row">
+      <div class="blog-left">
+        <img src="dsc_img/DSC02197.JPG" alt="">
+        <h2>Fresher's Party</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, quibusdam minus dignissimos similique laboriosam cumque nulla velit voluptatem. Alias voluptates delectus consequuntur quidem distinctio repudiandae fugit, quam voluptas rem dicta natus numquam unde obcaecati tempore. Porro omnis pariatur repellat sapiente?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa labore velit rerum. Voluptatibus, nisi possimus. Sunt eos incidunt corrupti, eum reprehenderit mollitia sequi quae possimus! Numquam, pariatur qui omnis provident cupiditate hic molestiae et beatae dolores quaerat tenetur ut, ad nisi iure maiores, asperiores velit. Asperiores excepturi cumque necessitatibus perspiciatis exercitationem vero vel illo fuga?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iusto sint pariatur ipsum? Nihil possimus animi cumque, pariatur itaque, reprehenderit assumenda ipsa, iusto nam nulla ea? Iusto ipsa animi sequi praesentium saepe quidem mollitia corrupti quod dolor quos voluptate atque aut deserunt, officia ex, eius omnis id nisi et dolores consequuntur dolorem minus quia fugiat? Voluptatum inventore aspernatur impedit nulla labore, corporis et accusamus asperiores eveniet vel blanditiis officiis iusto temporibus tempore eius nihil veniam?</p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt nam, blanditiis quam veniam quibusdam animi deserunt cupiditate sunt ullam rem dicta, ea minus nobis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore non neque quidem odit mollitia quod consectetur dolorum sed natus, labore accusantium officiis quam similique nulla vitae soluta velit amet. Laborum id aut molestiae porro voluptate est minus libero cum voluptates!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt nam, blanditiis quam veniam quibusdam animi deserunt cupiditate sunt ullam rem dicta, ea minus nobis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore non neque quidem odit mollitia quod consectetur dolorum sed natus, labore accusantium officiis quam similique nulla vitae soluta velit amet. Laborum id aut molestiae porro voluptate est minus libero cum voluptates!
+        </p>
+        <div class="cmmnt-box">
+            <h3>Leave Your Message/Suggestions</h3>
+
+            <form action="" class="cmmnt-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Name">
+                <textarea  rows="5" placeholder="Your Message/Suggestion"></textarea>
+                <button type="submit" class="btn col-btn">Post Message</button>
+            </form>
+        </div>
+      </div>
+
+      <div class="blog-right">
+        <h3>Our Members</h3>
+        <div>
+            <span>Final Year</span>
+            <span>17</span>
+        </div>
+        <div>
+            <span>Junior Year</span>
+            <span>16</span>
+        </div>
+        <div>
+            <span>Shophomore Year</span>
+            <span>24</span>
+        </div>
+        <div>
+            <span>Fresher Year</span>
+            <span>0</span>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- ---Footer--- -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolor sed at quos doloremque iure cum tenetur delectus non? Inventore,<br> sunt vel. Dolores debitis reprehenderit, quasi repellat iusto facilis itaque.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by Satwick(Pushparaj)</p>
+  
+</section>
+
+
+    <script>
+      var navBar = document.getElementById("navbar");
+
+      function showmenu(){
+        navBar.style.right = "0";
+      }
+      function hidemenu(){
+        navBar.style.right = "-170px";
+      }
+    </script>
+  </body>
+</html>
